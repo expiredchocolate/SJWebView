@@ -8,10 +8,14 @@
 
 import UIKit
 
+/*
+ * 注意如果遇到某些带有导航栏的页面 出现webView内容页自动下沉的情况 下面的这行代码可以解决
+ * automaticallyAdjustsScrollViewInsets = false
+ */
 
 class ViewController: UIViewController {
 
-    
+    let testUrl = "https://github.com/expiredchocolate/SJWebView"
     
     fileprivate var webView: SJWebview = {
         let web = SJWebview()
@@ -43,7 +47,7 @@ class ViewController: UIViewController {
         }
         
         // 开始网络请求 替换为你自己想加载的网页
-        simpleWebView.startLoading("https://github.com/expiredchocolate/SJWebView") {
+        simpleWebView.startLoading(testUrl) {
             // 此处是没有地址的回调
         }
 
@@ -62,8 +66,8 @@ class ViewController: UIViewController {
             maker.edges.equalToSuperview()
         }
         // 开始网络请求
-        webView.startLoading("https://github.com/expiredchocolate/SJWebView") {
-            // 此处是没有地址的回调
+        webView.startLoading(testUrl) {
+            // 此处是没有地址不能加载的回调
         }
         // 与H5交互的回调
         webView.userContentAction { (userContentController, receiveMessage) in
