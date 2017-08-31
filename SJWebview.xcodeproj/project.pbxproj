@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2225271EA60FA0002684B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2225261EA60FA0002684B4 /* AppDelegate.swift */; };
+		3B2225291EA60FA0002684B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2225281EA60FA0002684B4 /* ViewController.swift */; };
+		3B22252C1EA60FA0002684B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B22252A1EA60FA0002684B4 /* Main.storyboard */; };
+		3B22252E1EA60FA0002684B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B22252D1EA60FA0002684B4 /* Assets.xcassets */; };
+		3B2225311EA60FA0002684B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B22252F1EA60FA0002684B4 /* LaunchScreen.storyboard */; };
+		3B22253B1EA611AB002684B4 /* SJWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22253A1EA611AB002684B4 /* SJWebView.swift */; };
+		422F0977CD1A4906AEF5ABF3 /* Pods_SJWebview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCBB9BF08F98605B392FA2 /* Pods_SJWebview.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F8C117A04762DBC2A760A4 /* Pods-SJWebview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJWebview.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJWebview/Pods-SJWebview.release.xcconfig"; sourceTree = "<group>"; };
+		3B2225231EA60FA0002684B4 /* SJWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2225261EA60FA0002684B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2225281EA60FA0002684B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B22252B1EA60FA0002684B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B22252D1EA60FA0002684B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2225301EA60FA0002684B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2225321EA60FA0002684B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B22253A1EA611AB002684B4 /* SJWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJWebView.swift; sourceTree = "<group>"; };
+		BACCBB9BF08F98605B392FA2 /* Pods_SJWebview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJWebview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C4B1AE75C44CFB6C8F1FB9 /* Pods-SJWebview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJWebview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJWebview/Pods-SJWebview.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2225201EA60FA0002684B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422F0977CD1A4906AEF5ABF3 /* Pods_SJWebview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B22251A1EA60FA0002684B4 = {
+			isa = PBXGroup;
+			children = (
+				3B2225251EA60FA0002684B4 /* SJWebview */,
+				3B2225241EA60FA0002684B4 /* Products */,
+				FD8BF64AACECA496D0F3EA1C /* Pods */,
+				76B212DC7308E449B6037C34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2225241EA60FA0002684B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2225231EA60FA0002684B4 /* SJWebview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2225251EA60FA0002684B4 /* SJWebview */ = {
+			isa = PBXGroup;
+			children = (
+				3B2225261EA60FA0002684B4 /* AppDelegate.swift */,
+				3B2225281EA60FA0002684B4 /* ViewController.swift */,
+				3B22253A1EA611AB002684B4 /* SJWebView.swift */,
+				3B22252A1EA60FA0002684B4 /* Main.storyboard */,
+				3B22252D1EA60FA0002684B4 /* Assets.xcassets */,
+				3B22252F1EA60FA0002684B4 /* LaunchScreen.storyboard */,
+				3B2225321EA60FA0002684B4 /* Info.plist */,
+			);
+			path = SJWebview;
+			sourceTree = "<group>";
+		};
+		76B212DC7308E449B6037C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACCBB9BF08F98605B392FA2 /* Pods_SJWebview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD8BF64AACECA496D0F3EA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C4B1AE75C44CFB6C8F1FB9 /* Pods-SJWebview.debug.xcconfig */,
+				08F8C117A04762DBC2A760A4 /* Pods-SJWebview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2225221EA60FA0002684B4 /* SJWebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2225351EA60FA0002684B4 /* Build configuration list for PBXNativeTarget "SJWebview" */;
+			buildPhases = (
+				EEB7AC4598E22A84F1949852 /* [CP] Check Pods Manifest.lock */,
+				3B22251F1EA60FA0002684B4 /* Sources */,
+				3B2225201EA60FA0002684B4 /* Frameworks */,
+				3B2225211EA60FA0002684B4 /* Resources */,
+				7B48C8C1D7CAAC18F95B1EC0 /* [CP] Embed Pods Frameworks */,
+				5C5468F9DAAFCDACC557FDD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJWebview;
+			productName = SJWebview;
+			productReference = 3B2225231EA60FA0002684B4 /* SJWebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B22251B1EA60FA0002684B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gsj;
+				TargetAttributes = {
+					3B2225221EA60FA0002684B4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = L62MX75EX8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B22251E1EA60FA0002684B4 /* Build configuration list for PBXProject "SJWebview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B22251A1EA60FA0002684B4;
+			productRefGroup = 3B2225241EA60FA0002684B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2225221EA60FA0002684B4 /* SJWebview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2225211EA60FA0002684B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2225311EA60FA0002684B4 /* LaunchScreen.storyboard in Resources */,
+				3B22252E1EA60FA0002684B4 /* Assets.xcassets in Resources */,
+				3B22252C1EA60FA0002684B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C5468F9DAAFCDACC557FDD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJWebview/Pods-SJWebview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B48C8C1D7CAAC18F95B1EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SJWebview/Pods-SJWebview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJWebview/Pods-SJWebview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB7AC4598E22A84F1949852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJWebview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B22251F1EA60FA0002684B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2225291EA60FA0002684B4 /* ViewController.swift in Sources */,
+				3B2225271EA60FA0002684B4 /* AppDelegate.swift in Sources */,
+				3B22253B1EA611AB002684B4 /* SJWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B22252A1EA60FA0002684B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B22252B1EA60FA0002684B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B22252F1EA60FA0002684B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2225301EA60FA0002684B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2225331EA60FA0002684B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2225341EA60FA0002684B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2225361EA60FA0002684B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C4B1AE75C44CFB6C8F1FB9 /* Pods-SJWebview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L62MX75EX8;
+				INFOPLIST_FILE = SJWebview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = choco.SJWebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B2225371EA60FA0002684B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F8C117A04762DBC2A760A4 /* Pods-SJWebview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L62MX75EX8;
+				INFOPLIST_FILE = SJWebview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = choco.SJWebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B22251E1EA60FA0002684B4 /* Build configuration list for PBXProject "SJWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2225331EA60FA0002684B4 /* Debug */,
+				3B2225341EA60FA0002684B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2225351EA60FA0002684B4 /* Build configuration list for PBXNativeTarget "SJWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2225361EA60FA0002684B4 /* Debug */,
+				3B2225371EA60FA0002684B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B22251B1EA60FA0002684B4 /* Project object */;
+}
