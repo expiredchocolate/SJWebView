@@ -54,14 +54,7 @@ class SJWebview: UIView {
     lazy var webView: WKWebView = {
         
         let webView: WKWebView
-        defer {
-            // 设置代理
-            webView.navigationDelegate = self
-            webView.uiDelegate = self
-            // 开启手势 后退前进
-            webView.allowsBackForwardNavigationGestures = true
-            webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
-        }
+        
         if let scriptName = self.scriptName {
             
             let userContentController: WKUserContentController = WKUserContentController()
@@ -79,6 +72,12 @@ class SJWebview: UIView {
         } else {
             webView = WKWebView(frame: .zero)
         }
+        // 设置代理
+        webView.navigationDelegate = self
+        webView.uiDelegate = self
+        // 开启手势 后退前进
+        webView.allowsBackForwardNavigationGestures = true
+        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
         return webView
     }()
     
